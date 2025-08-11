@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Georgia', serif;
+  background-color: #fffaf5;
+  color: #343333;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.nav {
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+     background-color: rgb(193, 109, 30);
+    height: 50px;
+    padding: 10px;
+   
+}
+
+header{
+   position: sticky;
+    top: 0;
+    z-index: 1;
+}
+ul li{
+     display: inline-block;
+   list-style: none;
+     margin: 5px;
+     margin-right: 50px;
+}
+ul li a{
+  text-decoration: none;
+  font-weight: bold;
+}
+ul li a:hover{
+    color: black;
+}
+
+.background{
+    background-image: url('./image/paulo-coelho-q-and-a_hero.jpg');
+     width: 1500px;
+    height: 700px;
+   background-repeat: no-repeat;
+   background-position: cover;
+   padding: 10px;
+   margin-left: 35px;
+}
+
+.about {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.about h2 {
+  width: 20%; 
+  font-size: 50px;
+  color: #333;
+}
+
+.about p {
+  width: 80%; 
+  font-size: 30px;
+  color: #555;
+  line-height: 2;
+}
+
+h2{
+   
+  font-size: 50px;
+  color: #333;
+}
+
+.row {
+  background-color: #d7b675; 
+  border: 2px solid #d2b48c; 
+  border-radius: 10px; 
+  padding: 6px;
+  margin: 3px ;
+}
+
+.row img {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  margin-top: 1rem;
+ 
+}
+
+.background blockquote {
+  font-size: 20px;
+  margin:  0;
+  font-style: italic;
+  color: #d7eaf1;
+  position: absolute;
+  top: 50%;
+  left: 5%;
+}
+
+
+.col .book {
+  display: flex;
+  align-items: center;
+  background-color: #fdf6e3;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem auto;
+  text-align: left;
+  gap: 1rem;
+}
+
+.col .row img {
+  width: 120px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.col .row a {
+  color: #8b4513;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.blog {
+  background-color: #fffaf0;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 800px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.blog h2 {
+  color: #8b4513;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.blog a {
+  display: block;
+  background-color: #fefcf7;
+  padding: 12px 16px;
+  margin-bottom: 10px;
+  border-left: 4px solid #d2b48c;
+  color: #5a3921;
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.blog a:hover {
+  background-color: #f5e9dc;
+  color: #8b4513;
+}
+
+
+.footer {
+  background-color: #8b4513;
+  color: #fffaf0;
+  text-align: center;
+  padding: 20px 10px;
+  margin-top: 40px;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 14px;
+}
